@@ -1,9 +1,7 @@
 import cv2
 import numpy as np
 import time
-st='"'
 path=raw_input("Enter the path of the file :")
-
 img = cv2.imread(path, 1)
 dict_1 = {1: 'Gray scale image', 2: 'Binary image', 3: 'Blue', 4: 'smoothing the image', 5: 'Blurring the image', 6: 'Detecting the edge of image' ,7: 'saturation', 8: 'Green', 9: 'Red', 10:'Value',11:'Hue',12:'cropping the image',13:'Doubling the image',14:'Transposing the image',15:'Face Detection'}
 height = img.shape[0]
